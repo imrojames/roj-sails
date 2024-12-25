@@ -21,7 +21,7 @@ module.exports.routes = {
 
   '/': {
     controller: 'PageController',
-    action: 'body'
+    action: 'index'
   },
 
 

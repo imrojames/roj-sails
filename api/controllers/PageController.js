@@ -1,9 +1,9 @@
 const pageContent = require('../../config/pageContent.json');
 
 module.exports = {
-    body: async function (req, res) {
+    index: async function (req, res) {
         try {
-            return res.view('pages/body', {
+            return res.view('pages/index', {
                 personalInfo: pageContent.personalInfo,
                 profession: pageContent.profession,
                 about: pageContent.about
