@@ -1,0 +1,21 @@
+{
+    "personalInfo": {
+        "title": "Roj",
+        "name": "Rojames Binoya",
+        "birthday": "1997/10/02",
+        "phone": "+63 945 328 4289",
+        "based": "Lapu-Lapu City, Cebu, Philippines",
+        "degree": "Bachelor",
+        "email": "binoyarojames@gmail.com"
+    },
+    "profession": {
+        "profession1": "Developer",
+        "profession2": "Hobbiest"
+    },
+    "about": {
+        "sectionTitle": "About Me",
+        "introduction1": "Hi, I'm Roj, a passionate developer and hobbyist. I'm currently learning about web development and I'm also into music.",
+        "introduction2": "I'm currently learning about web development and I'm also into music.",
+        "introduction3": "I'm also into music and I'm currently learning about web development and I'm also into music."
+    }
+}

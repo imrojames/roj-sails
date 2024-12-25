@@ -1,0 +1,43 @@
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title">
+        <h2><%= about.sectionTitle%></h2>
+        <p>
+            <%= about.introduction1 %>
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="/img/profile-img.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3><%= profession ? Object.values(profession).join(', ') : '' %></h3>
+          <p class="fst-italic">
+            <%= about.introduction2%>
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span><%= new Date(personalInfo.birthday).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><%= personalInfo.phone%></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Based:</strong> <span><%= personalInfo.based%></span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>27</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span><%= personalInfo.degree%></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><%= personalInfo.email%></span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            <%= about.introduction3%>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
